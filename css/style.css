@@ -1,12 +1,12 @@
-* {
-  margin: 0;
-}
-
 .header-image {
   background-color: #0099ff;
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
   height: 180px;
+}
+
+p {
+  font-size: large;
 }
 
 #logo {
@@ -27,4 +27,7 @@
 .date {
   font-size: medium;
   font-weight: normal;
+}
+.img-text {
+  font-size: small;
 }
