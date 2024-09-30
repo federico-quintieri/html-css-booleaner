@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+.header-image {
+  background-color: #0099ff;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+  height: 180px;
+}
+
+#logo {
+  height: 25%;
+}
+.title {
+  font-size: 50px;
+}
+.title-paragraph {
+  color: #999797;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.boolean-name {
+  color: #0099ff;
+}
+.date {
+  font-size: medium;
+  font-weight: normal;
+}
