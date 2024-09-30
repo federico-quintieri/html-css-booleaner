@@ -1,15 +1,21 @@
+/* Si rimuovono i margini di tutti gli elementi */
 * {
   margin: 0;
 }
+
+/* Gli elementi della lista ul hanno margini top e bot */
 ul {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* Div che racchiude main e footer */
 .div-article {
   width: 80%;
   margin: auto;
 }
 
+/* Immagine header principale */
 .header-image {
   background-color: #0099ff;
   background-image: url(../img/pattern.png);
@@ -17,75 +23,105 @@ ul {
   height: 180px;
 }
 
+/* Seleziono tramite id il logo dentro 'header-image' */
 #logo {
   height: 25%;
   margin-top: 130px;
   margin-left: 150px;
 }
+
+/* Setto la grandezza del titolo e il margine top */
 .title {
   font-size: 50px;
-  margin-top:20px;
+  margin-top: 20px;
 }
+
+/* Setto colore e proprietà base del sottotitolo */
 .title-paragraph {
   color: #999797;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
 
+/* Lo span 'The Booleaner' ha colore diferso */
 .boolean-name {
   color: #0099ff;
 }
+
+/* Setto proprietà testo data del sottotitolo */
 .date {
   font-size: medium;
   font-weight: normal;
 }
+
+/* Setto proprietà testo sotto immagini */
 .img-text {
   font-size: small;
   margin-bottom: 15px;
 }
+
+/* Proprietà primo div del footer (immagine 1) */
 .first-footer-div {
   background-image: url(../img/monitor.jpg);
   width: 250px;
   height: 250px;
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
+/* Proprietà secondo div del footer (immagine 2) */
 .second-footer-div {
   background-image: url(../img/graph.jpg);
   width: 250px;
   height: 250px;
 }
+
+/* Proprietà testi dentro le immagini dei footer div */
 .image-text {
   color: white;
   font-weight: bold;
   text-align: left;
-  margin-left:25px;
+  margin-left: 25px;
 }
+
+/* Heading table row  */
 .tr-heading {
   background-color: #4dacec;
   color: white;
 }
+
+/* Classe per colorare delel row della tabella */
 .lightblue-tr {
   background-color: rgb(150, 217, 248);
 }
+
+/* Proprietà generali della tabella */
 .table {
   text-align: left;
   width: 100%;
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
+
+/* Seleziono th,td,tr e gli imposto la width uguale */
 th,
 td,
 tr {
-  width: 50px;
+  width: 20px;
 }
+
+/* Imposto il colore del background per lo span che evidenzia */
 .yellow {
   background-color: yellow;
 }
-.footer-section{
-    margin-top:15px;
-    margin-bottom:15px;
+
+/* Setto i margini della sezione footer */
+.footer-section {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-#footer-title{
-    color:gray;
-    margin-bottom:5px;
+
+/* Proprietà titolo footer tramite ID */
+#footer-title {
+  color: gray;
+  margin-bottom: 5px;
 }
