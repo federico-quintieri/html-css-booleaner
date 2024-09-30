@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+}
+ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.div-article {
+  width: 80%;
+  margin: auto;
+}
+
 .header-image {
   background-color: #0099ff;
   background-image: url(../img/pattern.png);
@@ -5,20 +17,20 @@
   height: 180px;
 }
 
-p {
-  font-size: large;
-}
-
 #logo {
   height: 25%;
+  margin-top: 130px;
+  margin-left: 150px;
 }
 .title {
   font-size: 50px;
+  margin-top:20px;
 }
 .title-paragraph {
   color: #999797;
   font-size: 20px;
   font-weight: bold;
+  margin-bottom:15px;
 }
 
 .boolean-name {
@@ -30,36 +42,50 @@ p {
 }
 .img-text {
   font-size: small;
+  margin-bottom: 15px;
 }
 .first-footer-div {
   background-image: url(../img/monitor.jpg);
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+margin-bottom: 10px;
 }
 .second-footer-div {
   background-image: url(../img/graph.jpg);
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 .image-text {
   color: white;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
+  margin-left:25px;
 }
 .tr-heading {
   background-color: #4dacec;
   color: white;
 }
 .lightblue-tr {
-background-color: rgb(150, 217, 248);
+  background-color: rgb(150, 217, 248);
 }
-.table{
-    text-align: left;
-    width:100%;
+.table {
+  text-align: left;
+  width: 100%;
+  margin-bottom:15px;
 }
-th,td,tr{
-    width: 50px;
+th,
+td,
+tr {
+  width: 50px;
 }
-.yellow{
-    background-color: yellow;
+.yellow {
+  background-color: yellow;
+}
+.footer-section{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+#footer-title{
+    color:gray;
+    margin-bottom:5px;
 }
