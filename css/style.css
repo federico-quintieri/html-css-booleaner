@@ -101,6 +101,7 @@ ul {
   text-align: left;
   width: 100%;
   margin-bottom: 15px;
+  border-collapse: collapse;
 }
 
 /* Seleziono th,td,tr e gli imposto la width uguale */
