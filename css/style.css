@@ -1,6 +1,7 @@
 /* Si rimuovono i margini di tutti gli elementi */
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* Gli elementi della lista ul hanno margini top e bot */
@@ -11,9 +12,9 @@ ul {
 }
 
 /* Div che racchiude main e footer */
-.div-article {
+.container {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* Immagine header principale */
@@ -26,9 +27,8 @@ ul {
 
 /* Seleziono tramite id il logo dentro 'header-image' */
 #logo {
-  height: 25%;
-  margin-top: 130px;
-  margin-left: 190px;
+  width: 200px;
+  margin-top: 120px;
 }
 
 /* Setto la grandezza del titolo e il margine top */
